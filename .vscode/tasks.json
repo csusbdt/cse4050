@@ -4,7 +4,12 @@
 		{
 			"label": "web server",
 			"type": "shell",
-			"command": "node_modules/http-server/bin/http-server ."
+			"command": "node_modules/http-server/bin/http-server docs"
+		},
+		{
+			"label": "generate all sprite sheets",
+			"type": "shell",
+			"command": "bin/make_sprites.sh"
 		}
 	]
 }
